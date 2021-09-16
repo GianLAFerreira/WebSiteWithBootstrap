@@ -1,0 +1,51 @@
+
+.card-largura{
+    max-width: 18rem;
+}
+.imagem-carrossel{
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 400px;
+}
+
+h1, .fonte-bonita{
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial{
+    color: darkred !important;
+}
+
+#botao-cor-especial, .botao-cor-especial{
+    background: darkred;
+    color: white;
+}
+#borda-cor-especial{
+    border: 1px solid darkred;
+}
+.card-imagem{
+    height: 200px
+}
+.btn{
+    margin-left: 25%;
+}
+.modal-footer .btn{
+    margin: 0px 0px 10px 10px
+}
+@media (min-width:1361px) {
+    .card-largura{
+        max-width: 27rem;
+    }
+    .card-imagem{
+        height: 300px
+    }
+    #borda-cor-especial{
+        border: 2px solid darkred;
+    }
+    .btn{
+        margin-left: 32%;
+    }
+    .modal-footer .btn{
+        margin: 0px 0px 10px 10px
+    }
+}
